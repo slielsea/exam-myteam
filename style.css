@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Livvic", sans-serif;
+}
+
+.head__wrapper{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #014E56;
+    color: white;
+    padding: 30px 30px;
+}
+
+.burger{
+    display: none;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+
+.head__btn{
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+
+
+
+
+.text__wrapper{
+    background-color: #014E56;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+
+}
+.text{
+    width: 700px;
+}
+.name h1{
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.card__wrapper{
+    background-color: #004047;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.text__two{
+    font-weight: 700;
+    font-size: 64px;
+    padding: 40px 30px;
+}
+.section__two{
+    background-color: #004047;
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+
+.card{
+    width: 350px;
+    height: 274px;
+    background-color: #012F34;
+    padding: 30px;
+
+}
+
+.description h1{
+    color: #79C8C7;
+    font-size: 18px;
+}
+
+.card_btn{
+   transform: translateY(70px);
+}
+
+.third__section{
+    background-color: #012F34;
+    height: 300px;
+}
+
+.img__wrapper{
+display: flex;
+flex-wrap: wrap;
+gap: 40px;
+align-items: center;
+justify-content: center;
+
+}
+
+.imagee> img{
+    width: 155px;
+}
+
+.third__section h1{
+    font-size: 48px;
+    padding: 40px 20px;
+    text-align: center;
+    color: white;
+}
+
+.fourth__section{
+    background-color: #F67E7E;
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 400px;
+    padding: 81px 200px;
+}
+
+.main__btn{
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    width: 100px;
+    height: 30px; 
+}
+
+footer{
+    background-color: #002529;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+
+.main__btn:hover{
+    background-color:#012F34 ;
+    border: none;
+    color: white;
+}
+
+.head__btn:hover{
+    background-color: white;
+    border: none;
+    color: #014E56;
+}
+
+
+
+@media(max-width:576px){
+    .head__wrapper{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        gap: 30px;
+        background-color: #014E56;
+        color: white;
+        padding: 30px 30px;
+    }
+
+    nav{
+        display: none;
+    }
+    ul{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+
+
+    .text__wrapper{
+        background-color: #014E56;
+        color: white;
+        padding: 30px 30px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    
+    }
+    .text{
+        width: 300px;
+    }
+    .name h1{
+        font-weight: 700;
+        font-size: 64px;
+    }
+
+    .text__two{
+        font-size: 30px;
+    }
+
+    .card__wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        bottom: 50px;
+        top: 50px;
+        align-items: center;
+       
+    }
+
+    .section__two{
+    background-color: #004047;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .third__section h1{
+        font-size: 30px;
+    }
+    .third__section{
+        height: 500px;
+    }
+
+    .img__wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .fourth__section{
+        background-color: #F67E7E;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        padding: 81px 100px;
+    }
+
+    .texti{
+        width: 200px;
+        text-align: center;
+    }
+
+    .main__btn{
+        border-radius: 20px;
+        background-color: transparent;
+        border: 2px solid black;
+        color: black;
+        width: 150px;
+        height: 50px; 
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+
+    }
+    .icons{
+        display: flex;
+        gap: 50px;
+        margin-bottom: 100px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+    .head__wrapper{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        gap: 30px;
+        background-color: #014E56;
+        color: white;
+        padding: 30px 30px;
+    }
+
+
+    
+.card{
+    width: 250px;
+    height: 281px;
+    background-color: #012F34;
+    padding: 30px;
+
+}
+
+    .burger>img{
+        display: block;
+    }
+
+    .card__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+    
+    .text__wrapper{
+        background-color: #014E56;
+        color: white;
+        padding: 30px 30px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    
+    }
+    .text{
+        width: 400px;
+    }
+    .name h1{
+        font-weight: 700;
+        font-size: 64px;
+    }
+
+    .text__two{
+        font-size: 30px;
+    }
+
+    .texti h1{
+        width: 300px;
+    }
+
+    .card__wrapper{
+        display: flex;
+        gap: 50px;
+        bottom: 50px;
+        top: 50px;
+        align-items: center;
+       
+    }
+
+    .section__two{
+    background-color: #004047;
+    }
+
+
+    .img__wrapper{
+        display: flex;
+        gap: 40px;
+    }
+
+    .imagee>img{
+        width: 100px;
+    }
+
+    .main__btn{
+        border-radius: 20px;
+        background-color: transparent;
+        border: 2px solid black;
+        color: black;
+        width: 150px;
+        height: 50px; 
+    }
+    .btn{
+        display: block;
+    }
+
+    .fourth__section{
+        gap: 50px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+}
