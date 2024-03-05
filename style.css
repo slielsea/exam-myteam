@@ -171,7 +171,7 @@ footer{
         gap: 30px;
         background-color: #014E56;
         color: white;
-        padding: 30px 30px;
+        padding: 24px 48px;
     }
 
     nav{
@@ -240,11 +240,11 @@ footer{
         display: flex;
         flex-direction: column;
         gap: 50px;
-        padding: 81px 100px;
+        /* padding: 81px 100px; */
     }
 
-    .texti{
-        width: 200px;
+    .texti h1{
+        width: 100px;
         text-align: center;
     }
 
